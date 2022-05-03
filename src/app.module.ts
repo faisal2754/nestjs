@@ -1,5 +1,7 @@
 import { Module } from '@nestjs/common';
+import { BruhModule } from './bruh/bruh.module';
+
 @Module({
-  imports: [],
+  imports: [BruhModule],
 })
 export class AppModule {}
